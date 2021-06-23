@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/084a97c26f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hotel Grand</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <h1 id="page-title">Hotel Grand</h1>
+            <div class="options">
+                <ul>
+                    <li id="idiom">EN / FR</li>
+                    <li><i class="fas fa-search search-button"></i></li>
+                    <li class="menu-btn"><i class="fas fa-bars"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="presentation full-screen-size">
+            <ul class="lateral-menu left">
+                <li>Home</li>
+                <li>Discovery</li>
+                <li>Experience</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <div class="right bed-image">
+                <div class="bed-image-title">
+                    <h2 class="benne">Enjoy Life Through Beauty Comfort</h2>
+                    <p>If you want to live a bealthy life, there is no to so visit your favorite places ate any time</p>
+                </div>
+                <div class="mobile-button">
+                    <div class="call-to-action-btn">Check Avaliability</div>
+                </div>
+                <div class="bed-options-container">
+                    <ul class="bed-options">
+                        <li class="rl">Location <i class="fas fa-chevron-down"></i></li>
+                        <li class="rl">Person <i class="fas fa-chevron-down"></i></li>
+                        <li class="rl">Check in <i class="fas fa-chevron-down"></i></li>
+                        <li>Check out <i class="fas fa-chevron-down"></i></li>
+                        <li class="orange-btn">Check Avaliability</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="section-spacer"></div>
+        <div class="rooms-types-title">
+            <div class="left">
+                <h3 class="benne">Spacious cottages with comfort and beauty</h3>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="rooms-types">
+            <div class="card" id="card1" onmousemove="cardFocus(1)" onmouseout="cardFocus(1, true)">
+                <div class="image-card" style="background-image: url(assets/images/bed.jpg);"></div>
+                <div class="hight-info">
+                    <div class="left benne">Simple Room</div>
+                    <div class="right benne">$00/Night</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lower-info">
+                    <div class="left benne"><i class="fas fa-bed"></i> 2 beds rooms</div>
+                    <div class="right benne">Check Avaliability</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="card" id="card2" onmousemove="cardFocus(2)" onmouseout="cardFocus(2, true)">
+                <div class="image-card" style="background-image: url(assets/images/bed1.jpg);"></div>
+                <div class="hight-info">
+                    <div class="left benne">Classic Room</div>
+                    <div class="right benne">$120/Night</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lower-info">
+                    <div class="left benne"><i class="fas fa-bed"></i> 2 beds rooms</div>
+                    <div class="right benne">Check Avaliability</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="card" id="card3" onmousemove="cardFocus(3)" onmouseout="cardFocus(2, true)">
+                <div class="image-card" style="background-image: url(assets/images/bed2.jpg);"></div>
+                <div class="hight-info">
+                    <div class="left benne">Modern Room</div>
+                    <div class="right benne">$280/Night</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lower-info">
+                    <div class="left benne"><i class="fas fa-bed"></i> 3 beds rooms</div>
+                    <div class="right benne">Check Avaliability</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="card" id="card4" onmousemove="cardFocus(4)" onmouseout="cardFocus(2, true)">
+                <div class="image-card" style="background-image: url(assets/images/bed3.jpg);"></div>
+                <div class="hight-info">
+                    <div class="left benne">Luxury Room</div>
+                    <div class="right benne">$340/Night</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lower-info">
+                    <div class="left benne"><i class="fas fa-bed"></i> 4 beds rooms</div>
+                    <div class="right benne">Check Avaliability</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="game-room">
+            <h3>Gaming Zone</h3>
+        </div>
+    </section>
+    <footer style="margin-top: 200px;"></footer>
+</body>
+</html>

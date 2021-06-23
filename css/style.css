@@ -1,0 +1,366 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.rl {
+    border-right: 1px solid #ccc;
+}
+
+.ll {
+    border-left: 1px solid #ccc;
+}
+
+.benne {
+    font-family: 'Benne', serif;
+}
+
+.section-spacer {
+    height: 150px;
+}
+
+#nav-bar {
+    padding: 0 50px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar h1 {
+    font-weight: bold;
+    color: #FF9348;
+}
+
+#nav-bar ul {
+    list-style: none;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+#nav-bar ul li:hover {
+    color: #606060;
+}
+
+#nav-bar ul li.menu-btn {
+    display: none;
+}
+
+section .full-screen-size {
+    height: 90vh;
+}
+
+.presentation .lateral-menu{
+    list-style: none;
+    width: 15%;
+    height: 90vh;
+    text-align: center;
+}
+
+.presentation .lateral-menu li {
+    margin: 0 auto 40px 0;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.presentation .lateral-menu li:hover {
+    border-bottom: 2px solid #FF9348;
+    padding-bottom: 5px;
+    margin-bottom: 33px;
+    display: inline-block;
+    color: #606060;
+    cursor: pointer;
+}
+
+.presentation .bed-image {
+    background-image: url(../assets/images/bed.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    width: 85%;
+    height: 90vh;
+}
+
+.bed-image .mobile-button {
+    display: none;
+}
+
+.mobile-button .call-to-action-btn {
+    background-color: #FF9348;
+    color: #fff;
+    padding: 20px 45px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.presentation .bed-image .bed-image-title {
+    margin-left: 100px;
+    margin-top: 100px;
+    max-width: 690px;
+    width: 80%;
+}
+
+.presentation .bed-image .bed-image-title h2 {
+    font-weight: bold;
+    line-height: 100px;
+    text-shadow: 1px 1px 20px #606060;
+    font-size: 100px;
+    color: #fff;
+}
+
+.presentation .bed-image .bed-image-title p {
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 20px #606060;
+    color: #fff;
+    font-weight: bold;
+}
+
+.presentation .bed-image .bed-options-container {
+    background-color: white;
+    align-self: flex-end;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+
+.presentation .bed-image .bed-options-container .bed-options {
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.presentation .bed-image .bed-options-container .bed-options li {
+    display: inline-block;
+    padding: 15px 60px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.presentation .bed-image .bed-options-container .bed-options li:hover {
+    color: #606060;
+    cursor: pointer;
+}
+
+.presentation .bed-image .bed-options-container .bed-options li i {
+    margin-left: 10px;
+}
+
+.presentation .bed-image .bed-options-container .bed-options li.orange-btn {
+    background-color: #FF9348;
+    color: white;
+}
+
+section .rooms-types-title {
+    margin-left: 60px;
+    font-size: 30px;
+    max-width: 400px;
+    line-height: 40px;
+    color: #606060;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+section .rooms-types {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+section .rooms-types .card {
+    width: 350px;
+    display: inline-block;
+    margin: 20px 20px;
+    transition: 0.1s;
+    flex: 1;
+}
+
+section .rooms-types .card:hover {
+    cursor: pointer;
+}
+
+section .rooms-types .card .image-card {
+    width: 100%;
+    min-width: 300px;
+    height: 400px;
+    background-color: #ddd;
+    background-image: url(../assets/images/bed1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section .rooms-types .card .hight-info, section .rooms-types .card .lower-info {
+    padding: 0 15px;
+}
+
+section .rooms-types .card .hight-info {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #606060;
+}
+
+section .rooms-types .card .lower-info {
+    color: #ccc;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+section .rooms-types .card .lower-info .left i {
+    margin-right: 7px;
+}
+
+section .game-room {
+    margin-top: 150px;
+    width: 100%;
+    height: 85vh;
+    background-image: url(../assets/images/pool-game.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+section .game-room h3 {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #606060;
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (max-width: 1370px) {
+
+    .presentation .bed-image .bed-image-title {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nav-bar ul li.menu-btn {
+        display: inline-block;
+    }
+
+    .bed-options-container {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    ul.bed-options {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+    
+    .presentation .bed-image .bed-options-container .bed-options li {
+        padding: 15px 30px;
+    }
+
+    ul.lateral-menu {
+        display: none;
+    }
+
+    .presentation .bed-image {
+        width: 100%;
+    }
+
+    .presentation {
+        margin: 0;
+    }
+
+    section .rooms-types .card:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
+
+@media only screen and  (max-width: 850px) {
+    .bed-options-container {
+        display: none;
+    }
+    .bed-image .mobile-button {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and  (max-width: 810px) {
+    .presentation .bed-image .bed-image-title h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    section .game-room h3 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and  (max-width: 500px) {
+    #nav-bar .options ul #idiom {
+        display: none;
+    }
+
+    #nav-bar .options ul .search-button {
+        display: none;
+    }
+
+    .presentation .bed-image .bed-image-title h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .presentation .bed-image .bed-image-title p {
+        font-size: 15px;
+    }
+
+    .bed-image-title{
+        font-size: 15px;
+        top: 0;
+        left: 0;
+        margin-left: 0 !important;
+        margin-top: 150px !important;
+    }
+
+    section .game-room h3 {
+        font-size: 40px;
+    }
+}
