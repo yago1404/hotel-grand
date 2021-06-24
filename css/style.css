@@ -232,10 +232,9 @@ section .rooms-types .card .lower-info .left i {
 section .game-room {
     margin-top: 150px;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background-image: url(../assets/images/pool-game.jpg);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -250,6 +249,78 @@ section .game-room h3 {
     font-size: 80px;
 }
 
+section .avaliations-container {
+    height: 540px;
+    padding-top: 80px;
+}
+
+section .avaliations-container h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #606060;
+}
+
+section .avaliations-container .avaliation {
+    width: 890px;
+    height: 80%;
+    margin: 20px auto;
+}
+
+section .avaliations-container .avaliation .profile {
+    background-color: #606060;
+    height: 100%;
+    width: 40%;
+    background-image: url(../assets/images/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+section .avaliations-container .avaliation .coment {
+    background-color: ccc;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px 0 50px 40px;
+    height: 100%;
+    width: 60%;
+}
+
+section .avaliations-container .avaliation .coment h4 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+section .avaliations-container .more-arrows {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+section .avaliations-container .more-arrows .arrow-list {
+    list-style: none;
+}
+
+section .avaliations-container .more-arrows .arrow-list li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section .avaliations-container .more-arrows .arrow-list .left-arrow, section .avaliations-container .more-arrows .arrow-list .right-arrow {
+    background-color: #FF9348;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+section .avaliations-container .more-arrows .arrow-list .left-arrow {
+    padding: 5px 0 5px 15px;
+}
+
+section .avaliations-container .more-arrows .arrow-list .right-arrow {
+    padding: 5px 15px 5px 0;
+}
 
 
 
